@@ -23,5 +23,6 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     fun restoreMana(amount: Int) {
         mana = (mana + amount).coerceAtMost(100)
     }
+    fun train() { }
 
 }
